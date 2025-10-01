@@ -1,12 +1,61 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React + Vite weather application** that fetches live weather data using the **OpenWeatherMap API**.  
+Search any city and get real-time information such as **temperature, humidity, min/max values, and weather description**.  
+This project also demonstrates **Material UI**, **environment variables**, and **API integration**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+Check it out here: [Weather App](https://piyu-weather-app.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🌍 **Search Any City** – Get real-time weather updates worldwide  
+- 🌡️ **Temperature, Min/Max, Humidity, Feels Like**  
+- 🎨 **Material UI Styling** – Responsive and modern UI  
+- 🌦️ **Dynamic Images & Icons** – Weather visuals based on conditions  
+- ⚡ **React + Vite** – Fast build & development experience  
+- 🔑 **Environment Variables** – Securely store API keys using `.env`  
+
+---
+
+## 🛠️ Tech Stack
+- **React + Vite** (frontend framework)  
+- **Material UI (MUI)** (UI components & icons)  
+- **OpenWeatherMap API** (weather data)  
+- **CSS** for custom styling  
+- **Vercel** for deployment  
+
+---
+
+## 📁 Project Structure
+weather-app/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── WeatherApp.jsx
+│ ├── SearchBox.jsx
+│ ├── InfoBox.jsx
+│ ├── InfoBox.css
+│ ├── SearchBox.css
+│ |── main.jsx
+| |── App.css
+| |── index.css 
+├── .env
+├── package.json
+├── vite.config.js
+├── README.md
+├── LICENSE
+├── index.html
+
+
+---
+
+## 🚀 Run Locally
+
+1. Clone the project  
+   ```bash
+   git clone https://github.com/piyanshiParmar/weather-app.git
+   cd weather-app
